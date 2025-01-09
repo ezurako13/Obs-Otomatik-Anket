@@ -5,7 +5,7 @@ const radioButtons = nestedDocument.querySelectorAll('input[type="radio"]');
 
 var Offset = 2;
 
-for (let i = Offset; i < radioButtons.length; i += 6) {
+for (let i = Offset; i < radioButtons.length; i += 5) {
   radioButtons[i].checked = true;
 }
 
